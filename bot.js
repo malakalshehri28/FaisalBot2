@@ -77,3 +77,9 @@ client.on("reachLimit", (limit)=> {
     .catch(log.send)
   });
 });
+
+
+
+
+
+client.login(process.env.BOT_TOKEN);
