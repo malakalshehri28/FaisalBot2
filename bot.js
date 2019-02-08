@@ -1,13 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "#";
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : AJ`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : AJ ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`Free Mic.`,"http://twitch.tv//idk")
 });
 
@@ -16,8 +9,6 @@ client.user.setGame(`Free Mic.`,"http://twitch.tv//idk")
 
 
 
-const discord = new require("discord.js");
-const client = new discord.Client();
 var config = {
   events: [
     {type: "CHANNEL_CREATE", logType: "CHANNEL_CREATE", limit: 1 , delay: 3000},
