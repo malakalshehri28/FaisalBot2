@@ -15,9 +15,6 @@ client.user.setGame(`Free Mic.`,"http://twitch.tv//idk")
 
 
 
-
-const discord = new require("discord.js");
-const client = new discord.Client();
 var config = {
   events: [
     {type: "CHANNEL_CREATE", logType: "CHANNEL_CREATE", limit: 1 , delay: 3000},
