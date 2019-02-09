@@ -1,14 +1,4 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
-var prefix = "#";
-client.user.setGame(`Free Mic.`,"http://twitch.tv//idk")
-});
-
-
-
-
-
-const Discord = require("discord.js");
 const LOka = new Discord.Client();
 console.log('By KBOOOOOOOOSH-YT');
 LOka.on('ready', () => {
